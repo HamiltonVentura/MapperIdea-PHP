@@ -24,3 +24,17 @@ Agilizar o desenvolvimento de Software com mapas mentais, possibilitando reaprov
 ### SOFTWARES UTILIZADOS 
 - NODE 12 
 - Freemind 1.0 + pacote de icones 
+
+
+```mermaid
+flowchart LR
+    Mapeamento ---> Gerar-Codigo ---> Opcional ---> ShellScript;
+    Opcional ---> BatchScript;
+     Gerar-Codigo ---> codigo;
+
+    codigo --->PHP[color=blue];
+    codigo --->JAVA;
+    codigo --->Html;
+    codigo --->JAVASCRIPT
+     
+```
