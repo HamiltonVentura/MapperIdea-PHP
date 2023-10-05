@@ -1,7 +1,7 @@
 # MapperIdea-PHP
 ## Introdução ao Mapperidea 
 
-Aqui esta alguns exercícios do MapperIdea.
+Aqui esta alguns exercícios do MapperIdea, através das dicas aqui faladas é possível desenvolver sua primeira aplicação de agile code
 
 ### Mapperidea
 __Finalidade da Ferramenta :__
