@@ -25,6 +25,10 @@ Agilizar o desenvolvimento de Software com mapas mentais, possibilitando reaprov
 - NODE 12 
 - Freemind 1.0 + pacote de icones 
 
+> O mapeamento é um processo em que os membros da equipe de desenvolvimento podem executar, envolve "copiar" o codigo traduzindo-o em mapas mentais, 
+> os quais poderão se alterados atualizados uma vez montados, sem necessidade de alterar código "na unha".
+
+Após efetuar os mapeamentos, é necessário executar via linha de comando a geração de códigos, que é uma conversão do codigo mapeado em codigos práticos.
 
 ```mermaid
 flowchart LR
@@ -38,3 +42,5 @@ flowchart LR
     codigo --->JAVASCRIPT
      
 ```
+
+
