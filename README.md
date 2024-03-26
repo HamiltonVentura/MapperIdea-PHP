@@ -36,7 +36,7 @@ flowchart LR
     Opcional ---> BatchScript;
      Gerar-Codigo ---> codigo;
 
-    codigo --->PHP[color=blue];
+    codigo --->PHP;
     codigo --->JAVA;
     codigo --->Html;
     codigo --->JAVASCRIPT
