@@ -34,7 +34,7 @@ Após efetuar os mapeamentos, é necessário executar via linha de comando a ger
 flowchart LR
     Mapeamento ---> Gerar-Codigo ---> Opcional ---> ShellScript;
     Opcional ---> BatchScript;
-     Gerar-Codigo ---> Arquitetura;
+    Gerar-Codigo ---> Arquitetura;
 
     Arquitetura --->PHP;
     Arquitetura --->JAVA;
@@ -52,6 +52,14 @@ flowchart LR
 
 ``` mi -h ```
 
-Na sequência utilize 
- authorize|a <email> <machine> <server>  
+ - Na sequência utilize  com os dados fornecidos pela Mapperidea para autorizar seus acessos.
+ authorize|a <email> <machine> <server>
+
+- inicialize o projeto com o nome do projeto e o nome do arquivo
+``` mi init <nome do projeto> <arquivo.mm> ```
+
+- Atualize o projeto subindo as informações para o servidor
+``` mi push <nome do projeto> ```
+
+### CRIAÇÃO DO ARQUIVO
 
