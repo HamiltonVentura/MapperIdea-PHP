@@ -44,4 +44,14 @@ flowchart LR
 ```
 ### INSTALAÇÃO E USO DA FERRAMENTA
 
+- Instalar antes o node versão 12 
+
+- npm install mapperidea-cli -g 
+
+- teste usando o comando 
+
+``` mi -h ```
+
+Na sequência utilize 
+ authorize|a <email> <machine> <server>  
 
