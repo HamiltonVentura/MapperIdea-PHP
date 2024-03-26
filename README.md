@@ -36,17 +36,17 @@ flowchart LR
     Opcional ---> BatchScript;
      Gerar-Codigo ---> codigo;
 
-    codigo --->PHP;
-    codigo --->JAVA;
-    codigo --->Html;
-    codigo --->JAVASCRIPT
+    Arquitetura --->PHP;
+    Arquitetura --->JAVA;
+    Arquitetura --->Html;
+    Arquitetura --->JAVASCRIPT
      
 ```
 ### INSTALAÇÃO E USO DA FERRAMENTA
 
 - Instalar antes o node versão 12 
 
-- npm install mapperidea-cli -g 
+```npm install mapperidea-cli -g ```
 
 - teste usando o comando 
 
